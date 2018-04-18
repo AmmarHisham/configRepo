@@ -1,2 +1,12 @@
-cook
-  special:Briyani
+spring:
+ profiles: "default"
+
+cook:
+  special: Briyani
+  
+--- 
+spring:
+ profiles: "dev"
+
+cook:
+  special: Paneer  
